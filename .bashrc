@@ -115,3 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#Luke's Private setting
+
+#setting Tmuxinator
+export EDITOR=&#039;vim&#039
