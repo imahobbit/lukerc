@@ -88,3 +88,18 @@ sudo apt install fortune-zh
 fortune-zh
 fortune
 gem install tmuxinator
+gem 
+sudo apt install tmux tmuxinator
+echo $EDITOP
+ls
+cd lukerc/
+ls
+ls -a
+zsh 
+zsh
+sudo apt install man-zh
+sudo apt install man
+sudo apt update 
+apt list --upgradable 
+sudo apt upgrade 
+zsh
