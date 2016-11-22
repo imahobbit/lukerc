@@ -103,3 +103,76 @@ sudo apt update
 apt list --upgradable 
 sudo apt upgrade 
 zsh
+python3 setup.py install
+sudo python3 setup.py install
+pyevn
+pyenv
+pyenv --help
+python3-venv
+cd lukerc/
+zsh
+exit
+sudo pip3 pip install pandas
+sudo pip3 install pandas
+gcc
+zsh
+gvim
+vim
+ls
+rm -i sh.sh 
+ls -al
+tree
+sudo apt install tree
+sudo apt install tree2016
+sudo apt install tree
+tree
+tree -h
+tree --help
+cd /
+tree
+fg
+tree | tree.txt
+tree > tree.txt
+tree -> tree.txt
+tree -> ~/tree.txt
+fg
+cd
+chsh -s $(which zsh)
+$ echo $SHELL
+echo $SHELL
+chsh -s $(which zsh)
+chsh -h
+zsh
+pip3 install tldr
+sudo pip3 install tldr
+tldr -h
+tldr -u
+tldr man
+tldr ls
+tldr ld
+go get github.com/pranavraja/tldr (or platform binaries)
+go get github.com/pranavraja/tldr
+sudo apt install golang-go
+go get github.com/pranavraja/tldr
+go help gopath
+GOPATH=/home/user/gocode
+$GOPATH=/home/user/gocode
+$GOPATH=~/gocode
+md ~/gocode
+zsh
+sudo pip install icdiff
+sudo pip3 install icdiff
+pip3 install icdiff
+most
+sudo apt install most
+docker run -it b.gcr.io/tensorflow/tensorflow
+sudo apt install docker.io
+docker run -it b.gcr.io/tensorflow/tensorflow
+docker run -it docker run -it b.gcr.io/tensorflow/tensorflow
+docker run --help
+sudo apt-get install python-pip python-dev python-virtualenv
+virtualenv --system-site-packages ~/tensorflow
+cd ~/tensorflow
+source bin/activate 
+pip install --upgrade <$url_to_binary.whl>
+cd
