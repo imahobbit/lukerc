@@ -51,7 +51,7 @@ ZSH_THEME="bira"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git pip pyenv python tmux wed-search git-flow man sudo autojump autopep8)
+plugins=(git history pip pyenv python tmux  tmuxinator wed-search git-flow man sudo autojump autopep8)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,4 +84,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshrc="vim ~/.zshrc"
-
+alias vimrc="vim ~/.vimrc"
+alias bashrc="vim "~/.bashrc"
