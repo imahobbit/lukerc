@@ -183,3 +183,8 @@ ll
 exit
 help
 exit
+vi
+vi .vimrc
+vi .pyvimrc
+vi
+fg
