@@ -26,7 +26,7 @@ ZSH_THEME="bira"
  DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+ DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -83,6 +83,48 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#Luke's Private setting 
+#
+#
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# colored GCC warnings and errors
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+#
+#setting aliases 
+#
 alias zshrc="vim ~/.zshrc"
+alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.vimrc"
-alias bashrc="vim "~/.bashrc"
+alias pyvimrc="vim ~/.pyvimrc"
+alias sai="sudo apt install"
+alias saud="sudo apt update"
+alias saug="sudo apt upgrade"
+alias safug="sudo apt full-upgrade"
+alias spi="sudo pip install"
+alias sp3i="sudo pip3 install"
+alias lll="ls -a"
+#
+#Pyvim's setting
+alias vi=pyvim
+export EDITOR=pyvim
+#
+#
+#---# This thing is unwork! You need to fix it 
+#--#
+##
+#if [ -f ~/.luke_aliaser  ]; then
+#    .luke_aliaser
+#fi 
+

@@ -176,3 +176,10 @@ cd ~/tensorflow
 source bin/activate 
 pip install --upgrade <$url_to_binary.whl>
 cd
+mate
+exit
+lll
+ll
+exit
+help
+exit
