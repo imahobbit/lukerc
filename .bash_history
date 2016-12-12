@@ -188,3 +188,4 @@ vi .vimrc
 vi .pyvimrc
 vi
 fg
+gitk
